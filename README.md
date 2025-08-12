@@ -19,12 +19,17 @@ La aplicación permite:
 - **CSS**: para el diseño visual y el modal de detalle.
 
 ## 📂 Estructura de archivos
-/index.html -> Página principal
-/estilos.css -> Estilos principales de la página
-/script.js -> Lógica de búsqueda y carga de productos
-/productos.php -> Devuelve la lista de productos en formato JSON
-/detalle.php -> Devuelve el detalle de un producto
-/subir.php -> Formulario y script para subir imágenes a la base de datos
+/index.html -> Página principal.
+
+/estilos.css -> Estilos principales de la página.
+
+/script.js -> Lógica de búsqueda y carga de productos.
+
+/productos.php -> Devuelve la lista de productos en formato JSON.
+
+/detalle.php -> Devuelve el detalle de un producto.
+
+/subir.php -> Formulario y script para subir imágenes a la base de datos.
 
 ## 🗄 Estructura de la base de datos
 Base de datos: `tienda`
@@ -43,3 +48,4 @@ CREATE TABLE imagenes (
     FOREIGN KEY (codi) REFERENCES productos(codi)
 );
 ```
+
