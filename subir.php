@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <form method="POST" enctype="multipart/form-data">
     <h2>Subir Producto</h2>
     Código: <input type="number" name="codi" required><br>
-    Descripción: <input type="text" name="descri" required><br>
+    Nombre: <input type="text" name="descri" required><br>
     Precio: <input type="number" name="precio" required><br>
     Imagen: <input type="file" name="imagen" accept="image/*" required><br>
     <button type="submit">Subir</button>
